@@ -114,6 +114,7 @@ async function createFarm() {
               value: 'react'
             },
             { title: colors.green('Vue'), value: 'vue' },
+            { title: colors.green('Vue2'), value: 'vue2' },
             {
               title: colors.cyan('Preact'),
               value: 'preact'
