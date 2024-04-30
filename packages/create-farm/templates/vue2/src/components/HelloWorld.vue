@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hello-world">
     <h1>{{ msg }}</h1>
 
     <div class="card">
@@ -38,7 +38,7 @@ export default {
   color: #888;
 }
 
-.card {
+.hello-world {
   text-align: center;
 }
 </style>
