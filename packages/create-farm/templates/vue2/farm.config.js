@@ -1,8 +1,8 @@
 import { defineConfig } from '@farmfe/core';
-import { createVuePlugin } from "vite-plugin-vue2";
+import vue2 from '@vitejs/plugin-vue2'
 
 export default defineConfig({
   vitePlugins: [
-    createVuePlugin(),
+    vue2(),
   ]
 });
