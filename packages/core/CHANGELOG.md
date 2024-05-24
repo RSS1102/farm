@@ -1,5 +1,11 @@
 # @farmfe/core
 
+## 1.1.11
+
+### Patch Changes
+
+- 91f897b: fix: format error message and fix output.targetEnv schema validate
+
 ## 1.1.10
 
 ### Patch Changes
