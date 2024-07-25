@@ -58,6 +58,7 @@ import {
 import { mergeConfig, mergeFarmCliConfig } from './mergeConfig.js';
 import { normalizeExternal } from './normalize-config/normalize-external.js';
 import { normalizeResolve } from './normalize-config/normalize-resolve.js';
+import normalizePartialBundling from './normalize-config/normalize-partial-bundling.js';
 import type {
   Alias,
   FarmCLIOptions,
@@ -558,6 +559,7 @@ export async function normalizeUserCompilationConfig(
   );
 
   normalizeResolve(userConfig, resolvedCompilation);
+  normalizePartialBundling(resolvedCompilation);
 
   return resolvedCompilation;
 }
